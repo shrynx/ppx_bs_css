@@ -10,13 +10,13 @@ Parses a CSS string and produces a declaration block compatible with
 ### Quick start
 
 ```
-yarn add -D ppx_bs_css
+yarn add -D @shriyans/ppx_bs_css
 ```
 
 or 
 
 ```
-npm i -D ppx_bs_css
+npm i -D @shriyans/ppx_bs_css
 ```
 
 ### Usage
@@ -26,7 +26,7 @@ Add the PPX to your `bsconfig.json`:
 ```json
 {
     "ppx-flags": [
-        "ppx_bs_css/ppx"
+        "@shriyans/ppx_bs_css/ppx"
     ]
 }
 ```

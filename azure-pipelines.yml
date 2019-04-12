@@ -37,5 +37,5 @@ jobs:
           command: custom
           workingDir: '_release'
           verbose: false
-          customCommand: 'publish'
+          customCommand: 'publish --access public'
           customEndpoint: 'npm-publish-package'

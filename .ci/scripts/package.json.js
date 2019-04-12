@@ -5,8 +5,8 @@ const path = require("path");
 const mainPackageJson = require("../../package.json");
 const packageJson = JSON.stringify(
   {
-    name: mainPackageJson.name,
-    version: mainPackageJson.version,
+    name: "@shriyans/" + mainPackageJson.name,
+    version: "0.0.5",
     description: mainPackageJson.description,
     license: mainPackageJson.license,
     files: ["bin", "postinstall.js"],
